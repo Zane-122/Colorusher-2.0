@@ -1,5 +1,14 @@
+@font-face {
+  font-family: 'Toastymilk';
+  src: url('./fonts/Toasty Milk.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
+  background: radial-gradient(circle at center bottom, #dedede, #ffe8e8, #e8ffe8, #e8e8ff, #dedede);
+  background-size: 150% 150%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
